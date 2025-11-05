@@ -246,7 +246,7 @@ export function IntegrationHub({ navigateTo }: IntegrationHubProps) {
             </p>
           </div>
           <Button className="bg-[#001e50] hover:bg-[#003d82] text-white">
-            + Deploy New Adapter
+            + Add New Adapter
           </Button>
         </div>
 
