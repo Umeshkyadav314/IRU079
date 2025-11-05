@@ -81,8 +81,8 @@ export function APIGateway({ navigateTo }: APIGatewayProps) {
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl text-slate-900 mb-2">API Gateway</h1>
-            <p className="text-slate-600">Configure routes, transformations, and rate limiting</p>
+            <h1 className="text-3xl text-slate-900 mb-2 dark:text-gray-200">API Gateway</h1>
+            <p className="text-slate-600 dark:text-gray-300">Configure routes, transformations, and rate limiting</p>
           </div>
           <Button className="bg-teal-600 hover:bg-teal-700">
             <Plus className="w-4 h-4 mr-2" />

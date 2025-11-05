@@ -59,8 +59,8 @@ export function MonitoringAnalytics({ navigateTo }: MonitoringAnalyticsProps) {
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl text-slate-900 mb-2">Monitoring & Analytics</h1>
-            <p className="text-slate-600">Real-time metrics, logs, and performance insights</p>
+            <h1 className="text-3xl text-slate-900 mb-2 dark:text-gray-200">Monitoring & Analytics</h1>
+            <p className="text-slate-600 dark:text-gray-300">Real-time metrics, logs, and performance insights</p>
           </div>
           <div className="flex items-center gap-2">
             <Select defaultValue="24h">

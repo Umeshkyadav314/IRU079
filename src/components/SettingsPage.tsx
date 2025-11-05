@@ -22,8 +22,8 @@ export function SettingsPage({ navigateTo, onLogout }: SettingsPageProps) {
       <div className="space-y-6">
         {/* Header */}
         <div>
-          <h1 className="text-3xl text-slate-900 mb-2">Settings</h1>
-          <p className="text-slate-600">Manage your account, preferences, and team settings</p>
+          <h1 className="text-3xl text-slate-900 mb-2 dark:text-gray-100">Settings</h1>
+          <p className="text-slate-600 dark:text-gray-300">Manage your account, preferences, and team settings</p>
         </div>
 
         {/* Tabs */}

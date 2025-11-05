@@ -79,8 +79,8 @@ export function APISandbox({ navigateTo }: APISandboxProps) {
       <div className="space-y-6">
         {/* Header */}
         <div>
-          <h1 className="text-3xl text-slate-900 mb-2">API Sandbox</h1>
-          <p className="text-slate-600">Test and debug your API endpoints in real-time</p>
+          <h1 className="text-3xl text-slate-900 mb-2 dark:text-gray-200">API Sandbox</h1>
+          <p className="text-slate-600 dark:text-gray-300">Test and debug your API endpoints in real-time</p>
         </div>
 
         <div className="grid grid-cols-12 gap-6">

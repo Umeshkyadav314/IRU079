@@ -49,8 +49,8 @@ export function SecurityCompliance({ navigateTo }: SecurityComplianceProps) {
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl text-slate-900 mb-2">Security & Compliance</h1>
-            <p className="text-slate-600">Manage security policies, access control, and compliance</p>
+            <h1 className="text-3xl text-slate-900 mb-2 dark:text-gray-100">Security & Compliance</h1>
+            <p className="text-slate-600 dark:text-gray-300">Manage security policies, access control, and compliance</p>
           </div>
           <Button variant="outline">
             <Download className="w-4 h-4 mr-2" />
