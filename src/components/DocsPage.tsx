@@ -131,7 +131,7 @@ data = response.json()`,
                 <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
                   <Globe className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-slate-900 dark:text-slate-100 hidden sm:inline">Iru079 Docs</span>
+                <span className="text-slate-900 dark:text-slate-100 hidden sm:inline">Docs</span>
               </div>
             </div>
             <div className="flex items-center gap-2">

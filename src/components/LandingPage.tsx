@@ -25,7 +25,7 @@ export function LandingPage({ onNavigate }: LandingPageProps) {
           <button onClick={() => onNavigate('docs')} className="text-blue-100 hover:text-white transition-colors">Documentation</button>
           <button onClick={() => onNavigate('pricing')} className="text-blue-100 hover:text-white transition-colors">Solutions</button>
           <Button variant="outline" className="text-white border-white hover:bg-white hover:text-[#001e50]" onClick={() => onNavigate('login')}>
-            Enterprise Login
+            Login
           </Button>
         </div>
         <Button variant="outline" className="md:hidden text-white border-white hover:bg-white hover:text-[#001e50]" onClick={() => onNavigate('login')}>
@@ -302,7 +302,7 @@ export function LandingPage({ onNavigate }: LandingPageProps) {
                 <span className="text-white">SEMP</span>
               </div>
               <p className="text-blue-200 text-sm">
-                Smart Enterprise Modernization Platform for Volkswagen Group
+                Smart Enterprise Modernization Platform
               </p>
             </div>
             <div>
